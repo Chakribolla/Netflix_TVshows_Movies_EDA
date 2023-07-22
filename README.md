@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="https://github.com/anishjohnson/NETFLIX-MOVIES-AND-TV-SHOWS-CLUSTERING/blob/main/Images_used/venti-views-lI7dlA5VBp8-unsplash.jpg">
+  <img src="https://entrackr.com/storage/2022/09/Netflix.jpg">
 </p>
 <h1 align="center"> Netflix Movies and TV Shows Clustering </h1>
 
@@ -14,12 +14,11 @@
 ## Methods used:<br>
 * Descriptive Statistics.
 * Data Visualization.
-* Machine Learning.
+
 
 ## Libraries utilized:<br>
 * NumPy and Pandas - For dataset cleaning and analysis.
 * Matplotlib, Plotly and Seaborn - For Data Visualization.
-* SkLearn and nltk -  For machine learning and clustering. 
 
 ## Dataset used:<br>
 This dataset consists of tv shows and movies available on Netflix as of 2019.<br>
@@ -51,9 +50,5 @@ Next, we treat the null values by dropping them if the respective variables cont
 
 <p>This cleaned data is then used to conduct EDA in order to understand it better and identify the underlying trends.</p>
 
-<p>Once obtained the required insights from the EDA, we start with Pre-processing the text data by removing the punctuation, and, stop words. This filtered data is passed through TF - IDF Vectorizer since we are conducting a text-based clustering and the model needs the data to be vectorized in order to predict the desired results.</p>
-
-<p>Finally, K–Means clustering is utilized to form 10 distinct clusters with similar data points.</p>
-
-<h4> Using the data provided, we also implemented a simple recommender system that successfully generates Ten similar Movies or Tv-Shows for the given title.</h4> 
+<p>Once obtained the required insights from the EDA, we start with Pre-processing the text data by removing the punctuation, and, stop words.</p>
 
